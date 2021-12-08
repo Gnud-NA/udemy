@@ -286,6 +286,11 @@ li {
   }
 
 /*section-course*/
+
+.active {
+    font-weight: 700;
+    padding-left: 0;
+}
 .section-course {
     padding: 64px 30px;
 }
@@ -312,6 +317,24 @@ li {
     text-overflow: ellipsis;
     white-space: normal;
     margin-bottom: 1.6rem;
+}
+.list-courses {
+    position: relative;
+}
+.list-courses .nav-item {
+    width: 240px;
+}
+.list-courses .nav-item .title{
+    overflow: hidden;
+    font-weight: 800;
+}
+.list-courses .nav-item .price {
+    font-weight: 800;
+}
+.next-course {
+    position: absolute;
+    top: 15%;
+    right: -1%;
 }
 /*Mobile screen*/
 @media screen and (max-width: 576px){
