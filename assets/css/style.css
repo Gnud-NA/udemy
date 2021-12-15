@@ -105,12 +105,14 @@ a:hover {
     border-radius: 9999px;
     background-color: #f7f9fa;
     margin-left: 20px;
+    
 }
 .form-inline {
     display: flex;
     flex-direction: row-reverse;
 }
 .search-input {
+    width: 100%;
     border: none;
     min-width: 32rem;
 }
