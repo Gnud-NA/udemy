@@ -110,6 +110,7 @@ li {
     margin-left: 20px;
     padding: 2px;
     min-width: 520px;
+
 }
 .form-inline {
     display: flex;
@@ -117,6 +118,7 @@ li {
 
 }
 .search-input {
+    width: 100%;
     border: none;
     width: 100%;
     display: block;
